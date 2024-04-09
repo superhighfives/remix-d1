@@ -12,4 +12,4 @@ This repository consists of two Workers.
 - Workers to access D1 with Prisma
 - Cloudflare Pages Functions for Remix to work
 
-Since Cloudflare Pages Functions created in Remix communicates with Workers to access D1 in Prisma using RPC, unlike normal Service Bindig, a type is defined for the return value from Prisma's Workers. Therefore, the usability of Remix is comparable to using Prisma normally.
+Since Cloudflare Pages Functions created in Remix communicates with Workers to access D1 in Prisma using RPC, unlike normal Service Binding, a type is defined for the return value from Prisma's Workers. Therefore, the usability of Remix is comparable to using Prisma normally.

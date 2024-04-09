@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
+    "generate": "prisma generate",
     "migrate:prisma": "prisma migrate dev",
     "migrate:d1:local": "zx ./scripts/migrate.mjs"
   },
